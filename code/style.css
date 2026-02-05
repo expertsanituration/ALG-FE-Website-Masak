@@ -1,15 +1,23 @@
 
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.font_STD {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .flex {
     display: flex;
 }
 
 .header {
     margin: 0 0 0 0;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .header_nav {
-    margin: 20px 0 0 21.5px;
+    margin: 20/1084px 0 0 21.5/1965px;
     flex-direction: row;
 }
 
@@ -21,10 +29,18 @@
 .header_nav_list_member {
     align-items: center;
     justify-content: center;
+    width: 300/1965px;
+    font-size: 32/100px;
+    font-weight: 400;
 }
 
 .header_nav_list_member:visited {
     color: black
+}
+
+.header_nav_dapurKita {
+    font-weight: 700;
+    font-size: 96/100px;
 }
 
 

@@ -10,7 +10,7 @@
 
 .header_nav {
     margin: 20px 0 0 21.5px;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .header_nav_list {
@@ -23,6 +23,9 @@
     justify-content: center;
 }
 
+.header_nav_list_member:visited {
+    color: black
+}
 
 
 

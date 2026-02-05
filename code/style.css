@@ -17,21 +17,21 @@
 }
 
 .header_nav {
-    margin: 20/1084px 0 0 21.5/1965px;
+    margin: calc(20 / 1084)px 0 0 calc(21.5 / 1965)px;
     flex-direction: row;
 }
 
 .header_nav_list {
     list-style-type: none;
-    border: 0 0 0 3px;
 }
 
 .header_nav_list_member {
     align-items: center;
     justify-content: center;
-    width: 300/1965px;
-    font-size: 32/100px;
+    width: calc(300 / 1965);
+    font-size: calc(32 / 100);
     font-weight: 400;
+    border-left: black solid calc(3 / 100)px;
 }
 
 .header_nav_list_member:visited {
@@ -40,7 +40,7 @@
 
 .header_nav_dapurKita {
     font-weight: 700;
-    font-size: 96/100px;
+    font-size: calc(96/100px);
 }
 
 

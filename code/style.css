@@ -10,7 +10,7 @@
 
 .header_nav {
     margin: 20px 0 0 21.5px;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .header_nav_list {

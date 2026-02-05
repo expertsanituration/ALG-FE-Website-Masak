@@ -1,6 +1,50 @@
 
 
+.flex {
+    display: flex;
+}
+
 .header {
     margin: 0 0 0 0;
-
 }
+
+.header_nav {
+    margin: 20px 0 0 21.5px;
+    flex-direction: row;
+}
+
+.header_nav_list {
+    list-style-type: none;
+    border: 0 0 0 3px;
+}
+
+.header_nav_list_member {
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

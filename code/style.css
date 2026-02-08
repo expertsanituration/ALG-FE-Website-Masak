@@ -36,7 +36,7 @@ body {
     color: black;
     align-items: flex-start;
     width: 100vw;
-    height: 14.7vh;
+    height: auto;
 }
 
 .header_nav {
@@ -48,7 +48,7 @@ body {
     top: 0;
     left: 0;
     width: 100vw;
-    height: 11.25vh;
+    height: min(6.597vw, 5.94rem);
     align-items: center;
 }
 
@@ -62,7 +62,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 15.27vw;
-    height: 11vh;
+    height: min(6.597vw, 5.94rem);
     font-size: clamp(0.1rem, 1rem, 1.5rem);
     font-weight: 400;
     border-left: black solid 1px;
@@ -114,8 +114,8 @@ body {
 .header_banner {
     position: fixed;
     width: 100vw;
-    height: 71vh;
-    top: 14.7vh;
+    height: calc(100vh - min(6.597vw, 5.94rem));
+    top: min(6.597vw, 5.94rem);
     left: 0;
 }
 
@@ -155,8 +155,7 @@ body {
 footer {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
-    height: 18.75vh;
-    max-height: 37.5vh;
+    height: max(18.75, 5rem);
     width: 100vw;
     background-color: #0A1439;
     position: fixed;
@@ -191,6 +190,8 @@ footer {
     margin: 3.6vh 0 0 2vw;
     height: auto;
     width: calc(50vw - 2vw);
+    position: fixed;
+    left: 0;
 }
 
 

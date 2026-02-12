@@ -194,6 +194,64 @@ footer {
     left: 0;
 }
 
+/* Section Resep */
+.resep_section {
+    margin-top: 72px;   
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #0A2E8A; 
+    padding: 4vh 4vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.resep_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+.resep_title {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: left;
+    color: white;
+}
+
+.search-row {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    max-width: 1000px;   
+}
+
+.search-input {
+    flex: 1;           
+    padding: 10px 16px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+.btn_lihat{
+    white-space: nowrap;
+}
+
+.resep_filter {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.filter_btn {
+    padding: 6px 14px;
+    border-radius: 14px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
 
 
 
